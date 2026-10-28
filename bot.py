@@ -11,7 +11,6 @@ from telegram.ext import (
 
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
-PROXY = "socks5://127.0.0.1:9050"
 
 keyboard = [
     ["🇺🇸 Get USA Number"],
